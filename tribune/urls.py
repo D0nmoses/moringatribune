@@ -15,8 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.conf.urls import url, include
+from django.contrib.auth import views
 
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url('', include('news.urls'))
+    url('', include('news.urls')),
+    url(r'^accounts/', include('django.contrib.auth.urls')),
+    url(r'^logout/$', views.LogoutView.as_view(), {"next_page": '/'}),
+    url(r'^tinymce/', include('tinymce.urls')),
 ]

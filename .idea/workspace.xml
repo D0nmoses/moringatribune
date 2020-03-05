@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1f1967e-99f4-49d9-a7ad-4bcddb6c91f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/news/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/email/newsemail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/email/newsemail.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/new_article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/registration/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/registration/registration_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0002_auto_20200225_1117.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0003_article.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0004_editor_phone_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/0005_article_article_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/emails.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/templates/all-news/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/all-news/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/templates/all-news/today-news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/all-news/today-news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribune/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribune/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribune/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribune/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +46,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YFM0VSD4Dmkd7ANrywyuO4GkOV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,7 +58,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -66,9 +96,17 @@
       <screen x="67" y="27" width="1299" height="636" />
     </state>
     <state x="167" y="125" width="1099" height="438" key="DiffContextDialog/67.27.1299.636@67.27.1299.636" timestamp="1582714332742" />
-    <state x="372" y="171" key="com.intellij.ide.util.TipDialog" timestamp="1582694997959">
+    <state x="499" y="102" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583388508817">
       <screen x="67" y="27" width="1299" height="636" />
     </state>
-    <state x="372" y="171" key="com.intellij.ide.util.TipDialog/67.27.1299.636@67.27.1299.636" timestamp="1582694997959" />
+    <state x="499" y="102" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.636@67.27.1299.636" timestamp="1583388508817" />
+    <state x="205" y="27" width="1012" height="636" key="SettingsEditor" timestamp="1583310136434">
+      <screen x="67" y="27" width="1299" height="636" />
+    </state>
+    <state x="205" y="27" width="1012" height="636" key="SettingsEditor/67.27.1299.636@67.27.1299.636" timestamp="1583310136434" />
+    <state x="372" y="171" key="com.intellij.ide.util.TipDialog" timestamp="1583388458483">
+      <screen x="67" y="27" width="1299" height="636" />
+    </state>
+    <state x="372" y="171" key="com.intellij.ide.util.TipDialog/67.27.1299.636@67.27.1299.636" timestamp="1583388458483" />
   </component>
 </project>
